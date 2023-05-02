@@ -1,0 +1,6 @@
+1:sami:cat:Bengal:Young (1-3 years):Male:NoAlong:NoSuitable:Attention-seeking:Deshi:Sami:sami@gmail.com:pictures/bengal.jpg
+2:mufasa:dog:Golden Retriever:Young (1-3 years):Male:YesAlong:YesSuitable:Friendly:Aurum:simba:gg@ymail.com:pictures/golden.jpg
+3:Tyson:dog:Bulldog:Young (1-3 years):Male:YesAlong:NoSuitable:Got that DAWG in him:DAWG:mike:sup@hotmail.com:pictures/bulldog.jpg
+4:fofana:dog:Poodle:Puppy/Kitten (0-1 year):Male:YesAlong:YesSuitable:Stylish:Furry:chelsea:21@yahoo.com:pictures/poodle.jpg
+5:sawney:cat:Scottish Field:Adult (3+ years):Male:YesAlong:YesSuitable:Loves to play:Sawney:Andy Robertson:scouser@gmail.com:pictures/scottish.jpg
+6:Biden:cat:American Shorthair:Young (1-3 years):Male:NoAlong:NoSuitable:Loves Mac&Cheese:Murica:PewPew:woke@ymail.com:pictures/shorthair.jpg

@@ -1,0 +1,195 @@
+/* <!-- 
+Miskat Mahmud 
+ID: 40250110
+SOEN 287- Winter 2023
+Assignment 03
+Concordia University
+Date:  15 April 2023 
+--> */
+body {
+  background: transparent;
+}
+
+.datetime {
+  font-size: 10px;
+  padding: 5px;
+  color: rgb(189, 122, 208);
+  background: transparent;
+  box-shadow: 0 0 50px #f6edee;
+  border-radius: 100px;
+  border-right: 10px #1cb8bb solid;
+  border-left: 10px #d147d1 solid;
+  
+  width: 300px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.time {
+  font-size: 2em;
+  color: rgb(52, 129, 197);
+}
+
+.date {
+  margin-top: 12px;
+  font-size: 1.75em;
+}
+
+
+
+#logo {
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+  background-color: transparent;
+}
+*{
+  margin: 5px;
+  box-sizing: border-box;
+ }
+
+ html, body {
+  height: 100%;
+ }
+ 
+ body{
+  margin: 0;
+  padding: 0;
+  background: rgb(170, 251, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(170, 251, 252, 1) 0%,
+    rgba(239, 147, 255, 1) 100%
+  );
+  font-family: "Itim", cursive;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+ }
+ 
+ header{
+     background: transparent;
+     padding: 2em 0 2em 0;
+ }
+ header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1em;
+
+}
+
+.login-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.login-link a {
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.name{
+ font-size: 30px;
+ color: rgb(52, 129, 197);
+}
+
+header img {
+height: auto;
+max-height: 50px;
+}
+
+ .main{
+     display: flex;
+     flex: 1;
+ }
+ 
+ .left{
+     background: transparent;
+     padding: 3em 0 3em 0;
+     flex: 1 1 100px;
+ }
+ 
+ main{
+     
+             padding: 3em 0 3em 0;
+             flex: 5 5 150px;
+
+ }
+ main h1{
+ color:rgb(189, 122, 208);
+ font-size: 35px;
+ 
+}
+main p{
+  font-size: 20px;
+}
+main form{
+  font-size: 15px
+}
+
+.navbar {
+  height: auto;
+  max-height: 50px;
+  float: left;
+  background: transparent;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+}
+
+ .right{
+     background: transparent;
+     padding: 1.5em 0 1.5em 0;
+     flex: 3 3 100px;
+ }
+
+aside .right {
+  height: auto;
+  max-height: 50px;
+}
+
+aside.left{
+  height: auto;
+  max-height: 50px;
+  float: left;
+}
+
+#interested {
+  position: sticky;
+  top: 100px;
+  right: 25px;
+  width: 250px;
+  height: 300px;
+  background-color: #f0f0f0;
+}
+
+
+
+
+@media (max-width: 767px) {
+  aside .right {
+    max-height: 30px;
+  }
+}
+
+ footer{
+  
+    
+   
+    
+  bottom: 0;
+  width: 100%;
+  background: rgb(190, 119, 216);
+  padding: 2em 0;
+ }
+
+ 
+
+
