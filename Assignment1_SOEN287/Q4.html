@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- 
+   Miskat Mahmud 
+   ID: 40250110
+   SOEN 287- Winter 2023
+   Concordia University
+   Date: 10 February 2023 
+   -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="Music Lover's Survey" content="Forms">
+      <title>SOEN 287 Assignment 1 question 4</title>
+      <style>
+         body{
+         background-color: #fdda5a;
+         }
+         .fieldset-color1{
+         border-color: #14FF08;
+         border-style:  solid;
+         border-width: 5px;
+         background-color: #a581cb;
+         color: #14FF08;
+         }
+         .fieldset-color2{
+         border-color: #f10846;
+         border-style:  solid;
+         border-width: 5px;
+         background-color: #F1B7C6;
+         color: #f10846;
+         }
+         fieldset .label1{
+            color: #31c029;
+         }
+         fieldset .label2{
+            color: #9b1539;
+         }
+         label{
+            font-weight: bold;
+         }
+      </style>
+   </head>
+   <body>
+      <table>
+         <tr>
+            <th style="font-size: 30px;">Music Lover's Survey
+            </th>
+            <th><a target="_blank" href="https://www.shutterstock.com/search/clip-art-music-notes"><img src="q4.png" alt="music notes" width="150" height="100"></a></th>
+         </tr>
+      </table>
+      <form>
+      <fieldset class="fieldset-color1">
+         <legend>Music Lover's Personal information</legend>
+         <label class="label1" for="FirstName">First Name </label>
+         <input type="text" id="FirstName" name="FirstName">
+         <br>	<br>
+         <label class="label1" for="FamilyName">Family Name </label>
+         <input type="text" id="FamilyName" name="FamilyName">
+         <br><br>
+         <label class="label1">Gender: </label>
+         <input type="radio" id="option1_1" name="group2">
+         <label class="label1" for="option1_1">Female</label>
+
+         <input type="radio" id="option2_2" name="group2">
+         <label class="label1" for="option2_2">Male</label>
+         <br><br>
+         <label class="label1" for="select">What age category are you from?</label>
+         <select id="select">
+            <optgroup label="Age category">
+               <option>Less than 18</option>
+               <option>More than 18</option>
+            </optgroup>
+         </select>
+         <br><br>
+         <label class="label1" for="input_email">Email</label>
+         <input id="input_email" type="email">				
+      </fieldset>
+      <br>
+      <fieldset class="fieldset-color2">
+         <legend>Survey Questions</legend>
+         <label class="label2">Which type of music do you listen to? (Pick as many as apply)</label>
+         <br>
+         <input id="checkbox_option1" name="checkbox" type="checkbox" >
+         <label class="label2" for="checkbox_option1">Blues</label>
+         <input id="checkbox_option2" name="checkbox" type="checkbox" >		  
+         <label class="label2" for="checkbox_option2">Classical music</label>
+         <input id="checkbox_option3" name="checkbox" type="checkbox" >
+         <label class="label2" for="checkbox_option3">Electronic music</label>
+         <br>
+         <input id="checkbox_option4" name="checkbox" type="checkbox" >
+         <label class="label2" for="checkbox_option4">Hip Hop/Rap</label>
+         <input id="checkbox_option5" name="checkbox" type="checkbox" >
+         <label class="label2" for="checkbox_option5">Pop((Popular music)</label>
+         <input id="checkbox_option6" name="checkbox" type="checkbox" >	
+         <label class="label2" for="checkbox_option6">Reggae</label>
+         <br>
+         <input id="checkbox_option7" name="checkbox" type="checkbox" >				  				  
+         <label class="label2" for="checkbox_option7">Other</label>
+         <p>
+            <label class="label2">List your 3 favorite artist/bands:</label>
+            <br>
+            <input type="text" id="fav_artist1" name="fav_artist1" size=16 >
+            <input type="text" id="fav_artist2" name="fav_artist2" size=16 >
+            <input type="text" id="fav_artist3" name="fav_artist3" size=16 >
+         </p>
+         <label class="label2">If you were to win tickets which show would you like 2 tickets to?</label>
+         <br>
+         <input type="radio" id="option1" name="group1">
+         <label class="label2" for="option1">BRIT FLOYD (March 24,2016)</label>
+
+         <input type="radio" id="option2" name="group1">
+         <label class="label2" for="option2">IRON MAIDEN (April 1,2016)</label>
+
+         <input type="radio" id="option3" name="group1">
+         <label class="label2" for="option3">JANET JACKSON (June 17,2016)</label>
+
+         <input type="radio" id="option4" name="group1">
+         <label class="label2" for="option4">ADELE (September 30,2016)</label>
+			
+      </fieldset>
+      <br>
+      
+      <p>Thank you for taking the time to fill out our survey!</p>
+      <input type="Submit" value="Submit">
+      <input type="reset" value="Reset">
+   </form>
+   </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- 
+   Miskat Mahmud 
+   ID: 40250110
+   SOEN 287- Winter 2023
+   Concordia University
+   Date: 10 February 2023 
+   -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="Nested Tables" content="Tables">
+      <title>SOEN 287 Assignment 1 question 2</title>
+   </head>
+   <body>
+      <h1>Nested Tables</h1>
+      <table border="2">
+         <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+         </tr>
+         <tr>
+            <td>Row 2-Item 1</td>
+            <td>Row 2-Item 2</td>
+            <td rowspan="2">
+            <br><strong>Row 2: Nested Table 1</strong><br><br>
+               <table border="2">
+                  <tr>
+                     <th>Row 1 Header</th>
+                     <td>item</td>
+                  </tr>
+                  <tr>
+                     <th>Row 2 Header</th>
+                     <td>item</td>
+                  </tr>
+                  <tr>
+                     <th>Row 3 Header</th>
+                     <td>item</td>
+                  </tr>
+               </table>
+            </td>
+            <td>Row 2-Item 4<br>
+               A second line
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <br><strong>Row 3-Nested Table 2</strong><br><br>
+               <table border="2">
+                  <tr>
+                     <th>Row 1 Header</th>
+                     <td>item</td>
+                  </tr>
+                  <tr>
+                     <th>Row 1 Header</th>
+                     <td>item</td>
+                  </tr>
+               </table>
+            </td>
+            <td>Row 3-Item 2</td>
+            <td rowspan="2">Row 3-Item 3</td>
+         </tr>
+         <tr>
+            <td>Row 4-Item 1</td>
+            <td>Row 4-Item 2</td>
+            <td>Row 4-Item 3</td>
+         </tr>
+         <tr>
+            <td colspan="4">Row 5-Last row of outer table</td>
+         </tr>
+      </table>
+   </body>
+</html>

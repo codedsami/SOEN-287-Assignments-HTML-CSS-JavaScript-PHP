@@ -1,0 +1,181 @@
+/**
+Miskat Mahmud 
+ID: 40250110
+SOEN 287- Winter 2023
+Concordia University
+Date: 02 February 2023 
+*/
+*{
+  margin: 5px;
+  box-sizing: border-box;
+ }
+ body{
+     height: 95vh;
+     background: #f6edee;
+     font-family:  'Itim', cursive;
+     text-align: center;
+     color: black;
+     font-size: 15px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ header{
+     background: #fbebcc;
+     padding: 2em 0 2em 0;
+ }
+ header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1em;
+
+}
+.name{
+ font-size: 30px;
+ color: rgb(52, 129, 197);
+}
+
+header img {
+height: auto;
+max-height: 50px;
+}
+
+ .main{
+     display: flex;
+     flex: 1;
+ }
+ 
+ .left{
+     background: #f6edee;
+     padding: 3em 0 3em 0;
+     flex: 1 1 100px;
+ }
+ 
+ main{
+     
+             padding: 3em 0 3em 0;
+             flex: 5 5 150px;
+
+ }
+ main h1{
+ color:rgb(189, 122, 208);
+ font-size: 35px;
+ 
+}
+main p{
+  font-size: 20px;
+}
+main form{
+  font-size: 15px
+}
+ .right{
+     background: #f6edee;
+     padding: 3em 0 3em 0;
+     flex: 3 3 100px;
+ }
+
+aside .right {
+  height: auto;
+  max-height: 50px;
+}
+
+@media (max-width: 767px) {
+  aside .right {
+    max-height: 30px;
+  }
+}
+
+ footer{
+     background: #fbebcc;
+     padding: 2em 0 2em 0;
+ }
+
+
+
+/**
+body{
+background-color: #f6edee;
+color: black;
+text-align: center;
+margin: 0;
+font-family:  'Itim', cursive;
+width: 100%;
+}
+section h1{
+    color:rgb(189, 122, 208);
+    font-size: 35px;
+    
+}
+.name{
+    font-size: 30px;
+    color: rgb(52, 129, 197);
+}
+header, foooter{
+padding: 20px 0;
+}
+nav{
+padding: 20px 0;
+}
+section{
+padding: 60px 0;
+}
+.container{
+width: 100%;
+margin: 0 auto;
+}
+nav,  footer{
+float: left
+}
+section{
+float: center;
+}
+header{
+background-color: #fbebcc;
+width: 100%;
+text-align: center;
+}
+table {
+margin: 0 auto;
+width: 60%;
+}
+p{
+font-size: large;
+}
+nav{ 
+width: 200px;
+margin-right: 10px;
+}
+section{
+width: 960px;
+}
+footer{
+background-color: #fbebcc;
+width: 100%;
+text-align: center;
+padding: 30px;
+}
+.no-underline {
+    text-decoration: none;
+  }
+
+  .image-container {
+    float: center;
+    margin: 20px 0 0 0;
+  }
+  
+  /**
+   @media all and (max-width: 550px){
+        .main{
+            flex-direction: column;
+        }
+        main{
+            padding: 5em 0 5em 0;
+        }
+        li a{
+            display: inline;
+        }
+        .nav a{
+            display: inline;
+        }
+    */
