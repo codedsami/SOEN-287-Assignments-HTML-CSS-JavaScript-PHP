@@ -1,0 +1,82 @@
+<!-- 
+   Miskat Mahmud 
+   ID: 40250110
+   SOEN 287- Winter 2023
+   Assignment 2
+   Concordia University
+   Date: 20 March 2023 
+   -->
+   
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 2 Question 2</title>
+    <script>
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>JavaScript Array</h1>
+
+
+    <h2>Print the elements of an array using toString()</h2>
+
+
+    <p id="first"></p>
+
+    <h2>Print the elementsof an array using join()</h2>
+
+    <p id="second"></p>
+
+    <h2>Print the elements of an array in the format of index: value</h2>
+    <p id="third"></p>
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        function printingUsingToString(array) {
+            const outputString = array.toString();
+            return outputString;
+        }
+
+        const outputString = printingUsingToString(fruits);
+        document.getElementById("first").innerHTML = outputString;
+
+    
+
+        function printingUsingJoin(array) {
+            const outputString = array.join("&");
+            return outputString;
+        }
+
+        const OutputString = printingUsingJoin(fruits);
+        document.getElementById("second").innerHTML = OutputString;
+
+
+
+  
+
+        function printngUsingIndex(array) {
+            let result = "";
+            array.forEach(function (array, index) {
+                result += index + ": " + array + "<br>";
+            })
+            return result;
+        }
+
+        const outputstring = printngUsingIndex(fruits);
+        document.getElementById("third").innerHTML = outputstring;
+    </script>
+
+</body>
+
+
+
+</html>

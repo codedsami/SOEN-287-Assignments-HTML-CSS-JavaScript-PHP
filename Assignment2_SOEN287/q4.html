@@ -1,0 +1,76 @@
+<!-- 
+   Miskat Mahmud 
+   ID: 40250110
+   SOEN 287- Winter 2023
+   Assignment 2
+   Concordia University
+   Date: 20 March 2023 
+   -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Q4 A2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="q4.js"></script>
+
+        <style>
+            input[type="number"] {
+              width: 25px;
+              -moz-appearance: textfield;
+              appearance: textfield;
+            }
+
+            .box{
+                width: 400px;
+                height: 165px; 
+                border: 1px solid black
+
+            }
+          </style>
+        
+    </head>
+    <body>
+       <h1>Order Books Online</h1>
+       <div class="box">
+        <table>
+            <tr>
+              <th><strong>Book</strong></th>
+              <th><strong>Quantity</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            <tr>
+              <td>Basic Web Programming</td>
+              <td><input type="number" name="quantity1" id="quantity1"></td>
+              <td>$19.99</td>
+            </tr>
+            <tr>
+              <td>Intro to PHP</td>
+              <td><input type="number" name="quantity2" id="quantity2"></td>
+              <td>$86.00</td>
+            </tr>
+            <tr>
+              <td>Advanced JQuery</td>
+              <td><input type="number" name="quantity3" id="quantity3"></td>
+              <td>$55.00</td>
+            </tr>
+          </table>
+          <br><br>
+          <button style=" border-color: blue;" onclick="calculateOrder()">Calculate the Order</button>
+          <br><br>
+          <span id="first"></span>
+          <span id="second"></span>
+          <span id="third"></span>
+          
+          <span id="total"></span>
+
+       </div>
+
+        
+        
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!-- 
+   Miskat Mahmud 
+   ID: 40250110
+   SOEN 287- Winter 2023
+   Assignment 2
+   Concordia University
+   Date: 20 March 2023 
+   -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Exercise 5</title>
+<meta charset="UTF-8">
+</head>
+<body>
+    
+<p><strong>User Information:</strong></p>
+<div id="content"></div>
+
+<script>
+    function getUserInfo() {
+        let name = prompt('What is your full name');
+        if (!name) {
+            prompt('What is your full name?');
+        }
+        let age = prompt('How old are you?');
+        if (!age) {
+            alert('How old are you?');
+        }
+        return {name, age};
+
+
+    }
+
+    const userInfo = getUserInfo();
+    const contentDiv = document.getElementById('content');
+    contentDiv.innerHTML = `Hi, my name is ${userInfo.name} and I'm ${userInfo.age} years old.`;
+</script>
+
+
+
+
+
+</body>
+</html>
